@@ -46,6 +46,9 @@ module Jekyll
  
       resume_page = site.pages.detect {|page| page.name == 'resume.html'}
       resume_page.data['resume'] = resume_json
+      File.open("_data/resume.json","w") do |f|
+        f.write(resume_json.to_json)
+      end
     end
   end
 end
