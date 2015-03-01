@@ -1,13 +1,13 @@
 # Site settings
-title: Clean Blog
+title: Clean Code
 header-img: img/home-bg.jpg
 email: tushar.bhushan@yahoo.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Tales of the master control program"
 baseurl: ""
 url: "http://yourdomain.com"
 twitter_username: tushdante
 github_username:  tushdante
-facebook_username:  IronSummitMedia
+facebook_username: tusharbhushan
 linkedin_username: tbhushan
 
 # Build settings
