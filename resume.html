@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume"
-description: "Curriculum Vitae"
+description: "Junior Programmer"
 header-img: "img/about-bg.jpg"
 ---
 <!-- resume.html -->
@@ -9,7 +9,16 @@ header-img: "img/about-bg.jpg"
 <!-- <article class="resume"> -->
 
   <div class="row">
-      <h1 class="name">{{ site.data.resume.firstName }} {{ site.data.resume.lastName }}</h1>
+      <a href="{{ site.baseurl }}/assets/Tushar Bhushan-Resume.pdf">
+        <span class="fa-stack fa-lg" style="float:right; margin-top:14px;">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <h1 class="name">
+        {{ site.data.resume.firstName }} {{ site.data.resume.lastName }}
+      </h1>
+
   </div>
 
 <div class="row">
@@ -32,9 +41,8 @@ header-img: "img/about-bg.jpg"
             {% endfor %}
           </ul>
         </section>
-    </div>
-
-    <div class="col-md-6" >
+    
+      <hr/>
       <section>
         <h2>Experience</h2>
         <ul style="list-style-type: none;">
@@ -48,8 +56,8 @@ header-img: "img/about-bg.jpg"
           {% endfor %}
         </ul>
       </section>
-    </div>
-    <div class="col-md-6">
+      
+      <hr/>
       <section>
         <h2>Projects</h2>
         <ul style="list-style-type: none;">
