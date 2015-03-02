@@ -9,12 +9,16 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <hr class="small">
+                    {% if page.title != "Tushar Bhushan" %}
+                        <hr class="small">
+                    {% else %}
+                        <hr style="max-width: 300px; margin: 15px auto; border-width: 4px; border-color: white; width: 250px;">
+                    {% endif %}
                     <span class="subheading">{{ page.description }}</span>
                     {% if page.title == "Tushar Bhushan" %}
                         <br/>
                         <a href="{{ site.baseurl }}/assets/Tushar Bhushan-Resume.pdf">
-                          <span class="fa-stack fa-lg">
+                          <span class="fa-stack fa-lg" style="margin-top: 10px">
                               <i class="fa fa-circle fa-stack-2x"></i>
                               <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
                           </span>
