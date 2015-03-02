@@ -11,7 +11,7 @@ header-img: "img/about-bg.jpg"
 <div class="row">
     <div class="col-md-12">
         <a href="{{ site.baseurl }}/assets/Tushar Bhushan-Resume.pdf">
-          <span class="fa-stack fa-lg" style="float:right; margin-top:10px;">
+          <span class="fa-stack fa-lg" style="float:right;">
               <i class="fa fa-circle fa-stack-2x"></i>
               <i class="fa fa-file-pdf-o fa-stack-1x fa-inverse"></i>
           </span>
@@ -34,15 +34,24 @@ header-img: "img/about-bg.jpg"
             {% endfor %}
           </ul>
         </section>
-    
-      <hr/>
+        <hr/>
+        <section>
+          <h2>Skills</h2>
+          <ul style="list-style-type: none;">
+            <li><h4>Languages</h4> C, C++, Javascript, HTML 4.0/5.0, CSS, Python, Node.js</li>
+            <li><h4>Frameworks</h4> Hadoop, Bootstrap, express.js </li>  
+            <li><h4>Databases</h4> MySQL, MongoDB</li>
+            <li><h4>Concepts</h4> Algorithms, Data Structures, Networking, OSI Model, Operating Systems, User-Interface Design, Bash Scripting, Sockets Programming</li>
+          </ul>
+        </section>
+        <hr/>
       <section>
         <h2>Experience</h2>
         <ul style="list-style-type: none;">
           {% for position in site.data.resume.positions.values %}
             <li>
-              <h3>{{ position.company.name }}</h3>
-              <h4>{{ position.title }}</h4>
+              <h3 style="display:inline">{{ position.company.name }} </h3> | <h4 style="display:inline; font-weight: normal;">{{ position.title }}</h4>
+              <br/>
               <span style="font-size: 15px"><em> {{ position.startDate }} - {{ position.endDate }}</em></span>
               <p style="font-size: 18px">{{ position.summary | replace:'•','<br/> •' | replace_first:'<br/> •','•'  }}</p>
             </li>
