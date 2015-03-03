@@ -17,10 +17,10 @@ header-img: "img/about-bg.jpg"
             {% for education in site.data.resume.educations.values %}
               <h3> 
                 {% if education.schoolName contains 'Urbana-Champaign' %}
-                    <img src="{{ site.baseurl}}/img/uiuc.png" style="float: left;"></img> 
+                    <img src="{{ site.baseurl}}/img/uiuc.png" style="float: right;"></img> 
             
                 {% else %}
-                    <img src="{{ site.baseurl}}/img/uiuc.png" style="float: left; visibility: hidden;"></img>         
+                    <img src="{{ site.baseurl}}/img/uiuc.png" style="float: right; visibility: hidden;"></img>         
                 {% endif %}
                 {{ education.schoolName }}
              </h3>
