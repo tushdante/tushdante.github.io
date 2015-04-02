@@ -6,9 +6,6 @@ author:     "Tushar Bhushan"
 header-img: "img/frank-grimes.png"
 ---
 
-# Remembering Frank Grimes
-
-
 On May 4th, 1997, viewers of the TV comedy "The Simpsons" were introduced to Frank "Grimey" Grimes, who in my opinion was one of the more poignant characters on the show. Frank Grimes was a hard-working, ethical and honest man, who had to work for everything he achieved in life, and other than a few degrees in nuclear physics didn't actually achieve all that much. He was introduced as a new employee at the Springfield Nuclear Power Plant and quickly befriended Homer Simpson. However, Grimes was continually aggravated by the fact that despite Homer's complete incompetence, Homer is still able to lead a comfortable and happy lifestyle. Homer has it all, the beautiful wife, the smart kids and a nice house. This leads Frank to declare himself Homer's enemy and when his plans to discredit Homer fails, he loses his mind and decides to end his own life.
 
 Quite the depressing tale, for a TV comedy show, but the reason I find Grimes' character so appealing is precisely because the show's creators decided to make such a bold choice, with the message being "sometimes, you just can't win". There are lessons to be learned here, and in the analogy I'm trying to make, I find a pretty damn good one.
