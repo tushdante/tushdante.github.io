@@ -2,3 +2,4 @@ _site/*
 node_modules
 oauth.yaml
 _oauth.yml
+sample_posts/*
