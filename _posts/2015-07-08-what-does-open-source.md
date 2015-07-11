@@ -4,6 +4,7 @@ title:      "What does open source mean to me?"
 date:       2015-07-03 13:55:00
 author:     "Tushar Bhushan"
 header-img: "img/cool-computer.jpg"
+comments: true
 ---
 *This post that was initially conceived, and partially written while I was a part of Keen IO. I have since left the company, but I thought that these lessons were worth sharing so, I decided to finish it*
 
