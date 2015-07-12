@@ -27,8 +27,8 @@ author:
   facebook:     tusharbhushan
   twitter:      imit8me
   #google_plus:  username
-#fb_admins:      your facebook profile id
-#fb_appid:       your facebook app id
+fb_admins:      1397751229
+fb_appid:       485155071651430
 
 #Gems
 gems: [yaml, oauth, json]
