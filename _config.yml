@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: tushar.bhushan@yahoo.com
 description: "Tales of the master control program"
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://tusharbhushan.com"
 twitter_username: imit8me
 github_username:  tushdante
 facebook_username: tusharbhushan
@@ -16,6 +16,19 @@ highlighter: pygments
 permalink: pretty
 paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+#Extra Data/Social Media
+timezone:       America/Los_Angeles # eg. Asia/Kathmandu
+locale:         en_us # eg. en_us
+#baseurl:        "/" # does not include hostname
+name:           "Clean Code"
+#icon:           your site icon path # /assets/img/icon.png [best 300px X 300px]
+author:
+  facebook:     tusharbhushan
+  twitter:      imit8me
+  #google_plus:  username
+#fb_admins:      your facebook profile id
+#fb_appid:       your facebook app id
 
 #Gems
 gems: [yaml, oauth, json]

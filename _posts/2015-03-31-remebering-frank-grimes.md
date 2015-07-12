@@ -5,6 +5,10 @@ date:       2015-04-02 23:05:00
 author:     "Tushar Bhushan"
 header-img: "img/frank-grimes.png"
 comments: true
+featured_image:   "img/frank-grimes.png" # /assets/img/image.jpg
+#excerpt:          "for meta description" # Optional for overring content excerpt
+categories:       ["personal"] #best is to have one category in a post
+tags:             ["simpsons", "frank grimes", "work", "life", "balance"] #you can have several post tags
 ---
 On May 4th, 1997, viewers of the TV comedy "The Simpsons" were introduced to Frank "Grimey" Grimes, who in my opinion was one of the more poignant characters on the show. Frank Grimes was a hard-working, ethical and honest man, who had to work for everything he achieved in life, and other than a few degrees in nuclear physics didn't actually achieve all that much. He was introduced as a new employee at the Springfield Nuclear Power Plant and quickly befriended Homer Simpson. However, Grimes was continually aggravated by the fact that despite Homer's complete incompetence, Homer is still able to lead a comfortable and happy lifestyle. Homer has it all, the beautiful wife, the smart kids and a nice house. This leads Frank to declare himself Homer's enemy and when his plans to discredit Homer fails, he loses his mind and decides to end his own life.
 
